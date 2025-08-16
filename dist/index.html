@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container" id="bookmarkApp">
+  <h1>Закладки</h1>
+  <input type="text" id="bookmarkInput" placeholder="URL">
+  <button id="addBookmarkBtn">Додати</button>
+  <ul id="bookmarkList"></ul>
+</div>
+
+<div class="container" id="formApp">
+  <h1>Форма</h1>
+  <input type="text" id="username" placeholder="Логін">
+  <input type="password" id="password" placeholder="Пароль">
+  <button id="saveBtn">Зберегти</button>
+</div>
+<div class="container">
+  <h1>Каталог товарів</h1>
+<input type="text" id="search" placeholder="Пошук товару...">
+<div class="product-container"></div>
+
+<style>
+  .container {
+    display: block;
+    justify-items: center;
+    width: 400px;
+    margin: auto;
+  }
+  ul {
+    list-style: none;
+  }
+  input:hover {
+    background-color: #B7F8FF;
+    color: black;
+  }
+  input {
+    color: black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 200px 5px 1px;
+  }
+  
+  button:hover{
+    background-color: #B7F8FF;
+    color: white;
+  }
+
+  button {
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px 153px;
+  }
+</style>
+
+<script src="bundle.js"></script>
+</body>
+</html>
